@@ -1,4 +1,4 @@
-# countries.sql-
+# countries.sql
 List of countries (id, continent,capital , name)
 
 create table countries (id serial not null, capital varchar(255), continent varchar(255), name varchar(255), primary key (id))
